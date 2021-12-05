@@ -12,6 +12,7 @@
 		DE30BF02275C3BB200888D18 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30BF01275C3BB200888D18 /* Day1.swift */; };
 		DE30BF04275C3C7A00888D18 /* DayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30BF03275C3C7A00888D18 /* DayProtocol.swift */; };
 		DE30BF08275C426400888D18 /* DepthMeasurementChangeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30BF07275C426300888D18 /* DepthMeasurementChangeCounter.swift */; };
+		DE30BF0A275C496F00888D18 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30BF09275C496F00888D18 /* Day2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		DE30BF03275C3C7A00888D18 /* DayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProtocol.swift; sourceTree = "<group>"; };
 		DE30BF06275C40B800888D18 /* day1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day1.txt; sourceTree = "<group>"; };
 		DE30BF07275C426300888D18 /* DepthMeasurementChangeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthMeasurementChangeCounter.swift; sourceTree = "<group>"; };
+		DE30BF09275C496F00888D18 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		DE30BF0B275C49A200888D18 /* day2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 		DE30BEFD275C3B7900888D18 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				DE30BF0B275C49A200888D18 /* day2.txt */,
 				DE30BF06275C40B800888D18 /* day1.txt */,
 			);
 			path = assets;
@@ -96,6 +100,7 @@
 			children = (
 				DE30BF01275C3BB200888D18 /* Day1.swift */,
 				DE30BF03275C3C7A00888D18 /* DayProtocol.swift */,
+				DE30BF09275C496F00888D18 /* Day2.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE30BF04275C3C7A00888D18 /* DayProtocol.swift in Sources */,
+				DE30BF0A275C496F00888D18 /* Day2.swift in Sources */,
 				DE30BEF6275C391200888D18 /* main.swift in Sources */,
 				DE30BF02275C3BB200888D18 /* Day1.swift in Sources */,
 				DE30BF08275C426400888D18 /* DepthMeasurementChangeCounter.swift in Sources */,

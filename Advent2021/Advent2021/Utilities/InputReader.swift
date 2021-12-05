@@ -29,4 +29,10 @@ class InputReader {
         }
         return array
     }
+    
+    static func readFileIntoStringArray(_ file: String) -> [String] {
+        let input = InputReader.readFile(file)
+        let splitInput = input.components(separatedBy: "\n")
+        return splitInput
+    }
 }
