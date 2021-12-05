@@ -9,9 +9,18 @@ import Foundation
 
 class Day1: Day {
     
-    func solve() -> Any {
-        let input = InputReader.readFile("/Users/shubhampatel/workspaces/Advent2021/Advent2021/Advent2021/assets/day1.txt")
-        return input
+    func solvePartOne() -> Any {
+        let fileName = "/Users/shubhampatel/workspaces/Advent2021/Advent2021/Advent2021/assets/day1.txt"
+        guard let input = InputReader.readFileIntoIntArray(fileName) else { return "Couldn't solve"}
+        let counter = DepthMeasurementChangeCounter()
+        return counter.countChanges(in: input, windowSize: 1)
+    }
+    
+    func solvePartTwo() -> Any {
+        let fileName = "/Users/shubhampatel/workspaces/Advent2021/Advent2021/Advent2021/assets/day1.txt"
+        guard let input = InputReader.readFileIntoIntArray(fileName) else { return "Couldn't solve"}
+        let counter = DepthMeasurementChangeCounter()
+        return counter.countChanges(in: input, windowSize: 3)
     }
     
 }

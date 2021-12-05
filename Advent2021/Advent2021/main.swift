@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let day = Day1()
+print(day.solvePartOne())
+print(day.solvePartTwo())

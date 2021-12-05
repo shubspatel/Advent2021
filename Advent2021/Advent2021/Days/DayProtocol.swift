@@ -8,5 +8,6 @@
 import Foundation
 
 protocol Day {
-    func solve() -> Any
+    func solvePartOne() -> Any
+    func solvePartTwo() -> Any
 }

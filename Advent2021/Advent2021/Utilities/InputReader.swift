@@ -18,4 +18,15 @@ class InputReader {
         }
         return ""
     }
+    
+    static func readFileIntoIntArray(_ file: String) -> [Int]? {
+        let input = InputReader.readFile(file)
+        let splitInput = input.split(separator: "\n")
+        var array = [Int]()
+        for item in splitInput {
+            guard let convertedItem = Int(item) else { return nil }
+            array.append(convertedItem)
+        }
+        return array
+    }
 }
